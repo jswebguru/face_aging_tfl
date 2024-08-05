@@ -1,5 +1,6 @@
 # Fast-AgingGAN
 This repository holds code for a face aging deep learning model. It is based on the CycleGAN, where we translate young faces to old and vice versa.
+And for the fast inference changed the model into the Tensorflow Lite model.
 
 # Samples
 Top row is input image, bottom row is aged output from the GAN.
@@ -35,3 +36,6 @@ While training is running, you can observe the losses and the gan generated imag
 ```bash
 tensorboard --logdir=lightning_logs --bind_all
 ```
+
+Thanks for your attention to this project and feel free to contribute this.
+I'm open to PR at anytime.
